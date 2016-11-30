@@ -23,6 +23,8 @@ namespace WpfTaskManager
         public MainWindow()
         {
             InitializeComponent();
+
+            listView.DataContext = new List<string> { "a", "b", "c" };
         }
     }
 }
